@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 02</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul {
+            color: red;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: aqua;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: darkblue;
+        }
+
+        a:focus {
+            outline: 2px solid violet;
+            outline-offset: 2px;
+        }
+
+        a::before {
+            content: "🔗 ";
+        }
+
+        a::after {
+            content:" (externo)";
+
+        }
+
+        p::first-letter {
+            font-size:  2em;
+            color: red;
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Links estilizados com CSS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur sit modi eius autem rerum, reprehenderit voluptas facere numquam officiis temporibus culpa exercitationem! Illum laudantium assumenda cum, sed in laboriosam.</p>
+
+    <ul>
+        <li><a href="https://google.com"> Google</a></li>
+        <li><a href="https://youtube.com"> Youtube</a></li>
+        <li><a href="https://github.com"> Github</a></li>
+    </ul>
+
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping tags</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(245, 198, 198);
+      }
+
+      header {
+        background-color: grey;
+        border-radius: 10px;
+        margin: 1rem 1rem;
+        padding: 1.5rem;
+        text-align: center;
+        border: 2px solid black;
+      }
+
+      nav > a {
+        background-color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 30px;
+        margin: 2rem 1rem;
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        box-shadow: 7px 4px 6px rgba(0, 0, 0, 0.685);
+      }
+
+      nav > a:hover {
+        color: white;
+        background-color: black;
+        transition: 0.2s;
+        
+      }
+
+      main {
+        background-color: bisque;
+        margin: 1rem 1rem;
+        padding: 1.5rem;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        border-radius: 10px;
+        margin: 1rem 1rem;
+        border: 2px solid grey;
+      }
+
+
+       
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu Primeiro Site Estruturado</h1>
+      <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="assuntos">
+        <h2>Conteúdo Principal</h2>
+        <article>
+          <p>
+            Este artigo representa um conteúdo independente dentro da página.
+          </p>
+        </article>
+
+        <aside>
+          <p>Este conteúdo é complementar ao artigo principal.</p>
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <p>Site criado para fins de estudo em HTML5</p>
+    </footer>
+  </body>
+</html>

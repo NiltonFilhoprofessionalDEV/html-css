@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: black;
+  font-family: ubuntu;
+  color: white;
+  font-size: small;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+     text-align: center;
+
+}
+.primeiroh2{
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    padding: 0.5em;
+}
+
+p {
+    text-align: left;
+}
+
+#section1 {
+    background-color: red;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.segundoh2{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+#section3 > p {
+    text-align: center;
+    background-color: red;
+    border-radius: 5px;
+}
+
+ mark {
+   background-color: black;
+   color: white;
+    border-radius: 6px;  
+}
+
+ul {
+    background-color: white;
+    border-radius: 10px;
+}
+
+ol{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.download {
+    background-color: rgb(0, 255, 0);
+    color: blue;
+    border-radius: 10px;
+}
+
+footer > p {
+    color: black;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:active{
+    color: purple;
+}
+
+a:focus{
+   outline:2px solid blue; 
+   outline-offset: 2px;
+}
+
+a::before {
+    content: "👉";
+}
+
+a::after{
+    content: " [link]";
+    font-size: small;
+}
+
+p::first-letter {
+    font-size: 2em;
+}
